@@ -1,7 +1,13 @@
 # JudgeForge
 
-🌐 **Live Demo (Render):** https://judgeforge.onrender.com/
+> Self-hosted hackathon management, submissions and statistically informed judging — with a publicly hosted evaluation demo.
 
+**[Live demo](https://judgeforge.onrender.com/) · [Source code](https://github.com/rajsalonia/JudgeForge) · [Architecture](ARCHITECTURE.md) · [Scoring methodology](JUDGING.md) · [Security model](THREAT-MODEL.md)**
+
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Deploy-Docker-2496ED?logo=docker&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-blue)
+
+> [!WARNING]
+> **Evaluation demo only.** The publicly hosted instance uses known demo accounts/credentials when demo mode is enabled. Do not upload real participant data, confidential files, or use this hosted demo for a real competition. For production, turn off demo mode, provision real authentication and persistent storage, and review [known limitations](#known-limitations--production-recommendations).
 
 > **Self-hosted hackathon submission and fair-judging platform.**
 
@@ -65,7 +71,7 @@ Open your browser to: **`http://127.0.0.1:8000`** (or `http://localhost:8000`)
 | **Judge B** | Wei Lindqvist (`wei.lindqvist@example.org`, `jdg_02`) | `Authorization: Bearer token_judge_b` | `Cookie: session=jdg_b_44de` |
 | **Participant** | Priya Nair (`priya1@example.org`, `tm_01`) | `Authorization: Bearer token_participant` | `Cookie: session=prt_2e88` |
 
-All demo accounts sign in at `/login` with preset password `JudgeForge-Demo-2026!`. Demo credentials are for local evaluation. In non-demo production hosting, set `DEMO_MODE=false`.
+All demo accounts sign in at `/login` with preset password `JudgeForge-Demo-2026!`. These accounts are for evaluation only and must not be treated as secure. The checked-in application defaults to demo mode unless `DEMO_MODE=false` is explicitly set; disable demo credentials and configure production authentication before hosting real data.
 
 ---
 
@@ -270,6 +276,7 @@ This is because the official automated acceptance checker (`run.py`) supplied fo
 * [THREAT-MODEL.md](THREAT-MODEL.md) — Comprehensive security analysis across 15 operational vectors
 * [DEMO-SCRIPT.md](DEMO-SCRIPT.md) — 5-minute hackathon walkthrough and recording sequence
 * [RELEASE-CHECKLIST.md](RELEASE-CHECKLIST.md) — Verification records and pre-release audit checklist
+* [SECURITY.md](SECURITY.md) — Responsible vulnerability reporting and public-demo guardrails
 
 ---
 
