@@ -2,6 +2,10 @@
 
 > **Self-hosted hackathon submission and fair-judging platform.**
 
+[Repository](https://github.com/rajsalonia/JudgeForge) · [Hosted instance](https://judgeforge.onrender.com/projects) (an organizer page was observed on 22 October 2026; public anonymous access and all workflows have not been independently verified).
+
+**For:** hackathon organizers, judges, and participants. **Engineering focus:** FastAPI, SQLAlchemy/SQLite, role-based access, isolated judging, scoring normalization, and audit trails.
+
 JudgeForge is a resilient, offline-capable hackathon management and fair evaluation platform built for the **Dogfood 2026** competition. It turns hackathon operations into an auditable, statistically defensible workflow: from event creation, team formation, and rich project submissions to peer-isolated judge evaluations, cross-judge Z-score normalization, organizer review coverage monitoring, and transparent public results.
 
 ---
@@ -9,7 +13,7 @@ JudgeForge is a resilient, offline-capable hackathon management and fair evaluat
 ## Claimed Tier
 
 **Claimed:** `T1` and `T2`  
-**Verified:** `T1` and `T2` (100% acceptance checks passing in `run.py`)
+**Repository-reported verification:** `T1` and `T2` (see the acceptance checker section; results not rerun in this documentation audit)
 
 - **T1 Core**: Participant registration, team management, deadline-enforced project submissions, project editing rules, public gallery with track filtering and search.
 - **T2 Judging Engine**: Judge track assignments, isolated scoring interfaces (judges cannot view peer scores), weighted rubric configuration, zero-variance Z-score normalization, organizer progress dashboards, and RFC-compliant CSV export.
@@ -273,3 +277,6 @@ This is because the official automated acceptance checker (`run.py`) supplied fo
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+> **Deployment caveat:** The publicly hosted instance is separate from the documented offline/self-hosted workflow. Demo tokens, passwords, and seeded accounts in this README are for local demo mode only; do not reuse them for real user data. No live production security assessment was completed in this documentation update.
