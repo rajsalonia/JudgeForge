@@ -1,5 +1,8 @@
 # JudgeForge
 
+🌐 **Live Demo (Render):** https://judgeforge.onrender.com/
+
+
 > **Self-hosted hackathon submission and fair-judging platform.**
 
 JudgeForge is a resilient, offline-capable hackathon management and fair evaluation platform built for the **Dogfood 2026** competition. It turns hackathon operations into an auditable, statistically defensible workflow: from event creation, team formation, and rich project submissions to peer-isolated judge evaluations, cross-judge Z-score normalization, organizer review coverage monitoring, and transparent public results.
