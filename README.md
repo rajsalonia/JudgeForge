@@ -277,6 +277,7 @@ This is because the official automated acceptance checker (`run.py`) supplied fo
 * [DEMO-SCRIPT.md](DEMO-SCRIPT.md) — 5-minute hackathon walkthrough and recording sequence
 * [RELEASE-CHECKLIST.md](RELEASE-CHECKLIST.md) — Verification records and pre-release audit checklist
 * [SECURITY.md](SECURITY.md) — Responsible vulnerability reporting and public-demo guardrails
+* [CONTRIBUTING.md](CONTRIBUTING.md) — Development principles and pull-request checklist
 
 ---
 
