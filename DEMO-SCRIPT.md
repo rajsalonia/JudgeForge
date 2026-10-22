@@ -108,6 +108,6 @@
   Highlight all tests passing green.
 
 ### 04:50 – 05:00 | Repository & Conclusion
-* **Visual**: GitHub repository at https://github.com/17rajsal/JudgeForge and `README.md`.
+* **Visual**: GitHub repository at https://github.com/rajsalonia/JudgeForge and `README.md`.
 * **Narration**:
   > "JudgeForge combines operational power, mathematical fairness, and rock-solid offline reliability. Thank you."
