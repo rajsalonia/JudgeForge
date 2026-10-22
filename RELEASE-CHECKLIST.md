@@ -21,7 +21,7 @@
   - `JUDGING.md` updated with Ed25519 signed records, hash chain, privacy guarantees, and judging vs voting distinction.
   - `DEMO-SCRIPT.md` updated to a concise 5-minute recording sequence.
   - MIT License present in `LICENSE`.
-- [x] **Public Git Repository**: Synced to GitHub at https://github.com/17rajsal/JudgeForge.
+- [x] **Public Git Repository**: Synced to GitHub at https://github.com/rajsalonia/JudgeForge.
 
 ---
 
